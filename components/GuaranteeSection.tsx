@@ -24,14 +24,24 @@ export const GuaranteeSection: React.FC = () => {
 
         {/* Final CTA */}
         <div className="text-center">
-          <Button 
-            text="🎉 SIM, QUERO ADQUIRIR ESTE MAPA E ECONOMIZAR 100h!" 
-            variant="secondary" 
-            fullWidth={true}
-            className="whitespace-normal h-auto py-6"
-          />
+          {/* ENVOLVENDO O BOTÃO COM UM LINK <a> */}
+          <a 
+            href="https://pay.kiwify.com.br/mOAsb3c" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            // O 'block' garante que o link ocupe toda a largura para envolver o botão
+            className="block" 
+          >
+            <Button 
+              text="🎉 SIM, QUERO ADQUIRIR ESTE MAPA E ECONOMIZAR 100h!" 
+              variant="secondary" 
+              fullWidth={true}
+              className="whitespace-normal h-auto py-6"
+            />
+          </a>
+          {/* FIM DO LINK */}
           <p className="mt-4 text-sm text-slate-500">
-            Acesso imediato enviado para o seu e-mail.
+            Acesso imediato disponibilizado no Kiwify.
           </p>
         </div>
 
