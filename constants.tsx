@@ -9,7 +9,7 @@ export const PRICING: Pricing = {
 };
 
 export const LINKS = {
-  checkout: "#link-de-compra", // Placeholder for actual checkout link
+  checkout: "https://pay.kiwify.com.br/rofXZNz", // Placeholder for actual checkout link
   terms: "#termos",
   privacy: "#privacidade"
 };
